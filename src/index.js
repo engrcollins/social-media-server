@@ -46,6 +46,6 @@ app.get("/", (req, res) => {
   res.json("twitter clone api endpoint");
 });
 
-app.listen(3000, () => {
-  console.log("Listening on port 3000");
+app.listen(PORT, () => {
+  console.log(`Server is listening on port: ${PORT}`);
 });
